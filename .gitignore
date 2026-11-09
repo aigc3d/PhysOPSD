@@ -1,0 +1,12 @@
+# This pre-code release tracks only the publication materials listed below.
+# Update this list when the implementation is approved for release.
+*
+!/.gitignore
+!/README.md
+!/CITATION.bib
+!/CITATION.cff
+!/assets/
+!/assets/framework.png
+!/assets/physopsd-logo.png
+!/paper/
+!/paper/PhysOPSD.pdf
