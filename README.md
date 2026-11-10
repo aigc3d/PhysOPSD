@@ -8,16 +8,15 @@ Harold Haodong Chen<sup>1,2</sup>, Rui Peng<sup>2</sup>, Lingteng Qiu<sup>2</sup
 
 <sup>1</sup> HKUST &nbsp; <sup>2</sup> Alibaba Token Hub, Alibaba Group
 
-[Paper](paper/PhysOPSD.pdf) &nbsp; | &nbsp; [Project Page](https://haroldchen19.github.io/PhysOPSD-site/) &nbsp; | &nbsp; [BibTeX](CITATION.bib)
+[Paper](https://arxiv.org/abs/2611.12411) &nbsp; | &nbsp; [Project Page](https://haroldchen19.github.io/PhysOPSD-site/) &nbsp; | &nbsp; [BibTeX](#citation)
 
 </div>
 
 ## Release status
 
-**The paper and project page are available. Code release is pending approval.** This repository currently contains the paper, framework figure, and citation information. Training and inference code will be made available after approval; pretrained weights are not included in this release.
+**The paper and project page are available. Code release is pending approval.** This repository provides links to the paper and project page, the framework figure, and citation information. Training and inference code will be made available after approval; pretrained weights are not included in this release.
 
 - [x] Paper and project page
-- [x] Framework overview and citation
 - [ ] Training and inference code — pending approval
 - [ ] Pretrained model weights
 
@@ -31,21 +30,21 @@ Harold Haodong Chen<sup>1,2</sup>, Rui Peng<sup>2</sup>, Lingteng Qiu<sup>2</sup
 - **Dual-level privilege.** Dense drafts → abstract drafts → text progressively transfer physical information while limiting appearance shortcuts.
 - **Controlled physical variation.** Paired worlds vary a physical parameter under shared rollout noise. An EMA self-teacher supervises student-visited states with richer physical context.
 
-Visit the [project page](https://haroldchen19.github.io/PhysOPSD-site/) for video comparisons and case studies, and read the [paper](paper/PhysOPSD.pdf) for the method and experiments.
+Visit the [project page](https://haroldchen19.github.io/PhysOPSD-site/) for video comparisons and case studies, and read the [paper](https://haroldchen19.github.io/PhysOPSD-site/assets/PhysOPSD.pdf) for the method and experiments.
 
 ## Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{chen2026physopsd,
-  title  = {PhysOPSD: Code as Privilege for Physically Plausible Video Generation},
-  author = {Chen, Harold Haodong and Peng, Rui and Qiu, Lingteng and Qiu, Kejie and Xu, Chao and Dong, Zilong},
-  year   = {2026}
+@article{chen2026physopsd,
+  title={PhysOPSD: Code as Privilege for Physically Plausible Video Generation},
+  author={Chen, Harold Haodong and Peng, Rui and Qiu, Lingteng and Qiu, Kejie and Xu, Chao and Dong, Zilong},
+  journal={arXiv preprint arXiv:2611.12411},
+  year={2026}
+}
 }
 ```
-
-The citation is also available as [BibTeX](CITATION.bib) and through GitHub's **Cite this repository** menu.
 
 ## Contact
 
